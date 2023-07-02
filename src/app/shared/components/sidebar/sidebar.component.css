@@ -1,0 +1,22 @@
+#sidebar{
+  height: 91vh;
+  width: 30rem;
+}
+
+#svg1{
+  transition:all;
+  transition-duration: 1s;
+}
+
+#svg1:hover{
+  transform-origin: center;
+  transform: scale(1.2);
+}
+
+
+.btnActive{
+  text-align: center;
+  color: var(--gris-claro);
+  font-weight: bold;
+  background-color: var(--gris);
+}

@@ -1,0 +1,30 @@
+
+#imglogo{
+  max-width: 100px;
+  margin-right: 23px;
+  transition:all;
+  transition-duration: 1s;
+}
+#h4nbr{
+  transition:all;
+  transition-duration: 1s;
+}
+#imglogo:hover,
+#h4nbr:hover{
+  transform-origin: center;
+  transform: scale(1.2);
+}
+
+#nabar{
+  width: 100%;
+}
+
+img{
+width: 100%;
+}
+
+h2{
+  font-weight: bold;
+}
+
+
