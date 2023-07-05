@@ -2,23 +2,27 @@
   <form class="formulario text-center">
     <div class="d-flex justify-content-center">
       <div class="campo">
-        <label>ID Empleado</label>
-        <input id="txtId" class="input-text" type="text" placeholder="No. Control">
+        <label>Nombre</label>
+        <input id="txtname" class="input-text" type="text" placeholder="nombre" required>
       </div>
 
       <div class="campo">
-        <label>Last Name</label>
-        <input id="txtLName" class="input-text" type="text" placeholder="Last Name">
+        <label>Código</label>
+        <input id="txtcode" class="input-text" type="number" placeholder="código" required>
       </div>
 
       <div class="campo">
-        <label>Fist Name</label>
-        <input id="txtFName" class="input-text" type="text" placeholder="Fist Name">
+        <label>Auditoria</label>
+        <input id="txtFName" class="input-text" type="date"  pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD" required>
       </div>
 
       <div class="campo">
-        <label>Title</label>
-        <input id="txtTitle" class="input-text" type="text" placeholder="Puesto">
+        <label>Activo</label>
+        <select id="sltActiv">
+          <option value="opcion1">True</option>
+          <option value="opcion2">False</option>
+        </select>
+
       </div>
 
     </div>
