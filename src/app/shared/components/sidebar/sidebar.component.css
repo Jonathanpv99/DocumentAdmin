@@ -1,14 +1,12 @@
 #sidebar{
-  height: 91vh;
-  width: 30rem;
+  height: calc(100vh - 99px);
 }
-
-#svg1{
+#svg1, #svg2, #svg3, #svg4{
   transition:all;
   transition-duration: 1s;
 }
 
-#svg1:hover{
+#svg1:hover, #svg2:hover, #svg3:hover, #svg4:hover{
   transform-origin: center;
   transform: scale(1.2);
 }
@@ -20,3 +18,4 @@
   font-weight: bold;
   background-color: var(--gris);
 }
+

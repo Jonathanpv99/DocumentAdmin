@@ -1,0 +1,38 @@
+
+
+/*formulario*/
+
+.formulario{
+  background-color: var(--gris-claro);
+  width: min(100%); /*utiliza el valor mas pequeño y ahorra media query*/
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+/*campo*/
+.campo{
+  margin-bottom: 1rem;
+  margin: 1rem;
+}
+
+.campo label{
+  color: var(--oscuro);
+  font-weight: 700;
+  margin-bottom: .5rem;
+  display: block;
+  text-align: left;
+}
+
+.input-text, select{
+  text-align: left;
+  width: 100%;
+  border: none;
+  padding: 1.5rem;
+  border-radius: .5rem;
+}
+
+button{
+  font-weight: bold;
+  font-size: 1.6rem;
+}

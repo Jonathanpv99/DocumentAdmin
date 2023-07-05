@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './shared/Pages/home-page/home-page.component';
-import { DocumentTipeComponent } from './tramites/Pages/document-tipe/document-tipe.component';
-import { DocumentsComponent } from './tramites/Pages/documents/documents.component';
-import { TramitesComponent } from './tramites/Pages/tramites/tramites.component';
+import { TypePageComponent } from './documents/pages/type-page/type-page.component';
+import { DocumentPageComponent } from './documents/pages/document-page/document-page.component';
+import { TramitePageComponent } from './documents/pages/tramite-page/tramite-page.component';
+
 
 const routes: Routes = [
   {
@@ -12,15 +13,15 @@ const routes: Routes = [
   },
   {
     path: 'documentT',
-    component: DocumentTipeComponent,
+    component: TypePageComponent,
   },
   {
     path: 'document',
-    component: DocumentsComponent,
+    component: DocumentPageComponent,
   },
   {
     path: 'tramite',
-    component: TramitesComponent,
+    component: TramitePageComponent,
   },
   {
     path: '**',

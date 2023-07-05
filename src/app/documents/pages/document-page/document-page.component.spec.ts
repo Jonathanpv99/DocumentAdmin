@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TramitesComponent } from './tramites.component';
+import { DocumentPageComponent } from './document-page.component';
 
-describe('TramitesComponent', () => {
-  let component: TramitesComponent;
-  let fixture: ComponentFixture<TramitesComponent>;
+describe('DocumentPageComponent', () => {
+  let component: DocumentPageComponent;
+  let fixture: ComponentFixture<DocumentPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TramitesComponent ]
+      declarations: [ DocumentPageComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TramitesComponent);
+    fixture = TestBed.createComponent(DocumentPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

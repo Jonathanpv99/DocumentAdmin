@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DocumentsComponent } from './documents.component';
+import { TypePageComponent } from './type-page.component';
 
-describe('DocumentsComponent', () => {
-  let component: DocumentsComponent;
-  let fixture: ComponentFixture<DocumentsComponent>;
+describe('TypePageComponent', () => {
+  let component: TypePageComponent;
+  let fixture: ComponentFixture<TypePageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DocumentsComponent ]
+      declarations: [ TypePageComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DocumentsComponent);
+    fixture = TestBed.createComponent(TypePageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

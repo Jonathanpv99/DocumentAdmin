@@ -6,16 +6,19 @@ import { HomePageComponent } from './Pages/home-page/home-page.component';
 
 
 
+
 @NgModule({
   declarations: [
     HomePageComponent,
+
   ],
   imports: [
     CommonModule,
     RouterModule,
   ],
   exports: [
-    HomePageComponent
+    HomePageComponent,
+
   ]
 })
 export class SharedModule { }
