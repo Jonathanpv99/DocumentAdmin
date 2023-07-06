@@ -1,6 +1,10 @@
-export interface DocumentTipe {
-  nombre: string;
-  codigo: number;
-  auditoria: Date;
-  activo: boolean;
+
+export interface DocumentT {
+  id:        number;
+  nombre:    string;
+  codigo:    number;
+  auditoria: string;
+  activo:    number;
+  documents: any[];
 }
+

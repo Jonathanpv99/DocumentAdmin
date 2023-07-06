@@ -14,14 +14,15 @@ import { DocumentsModule } from './documents/documents.module';
   declarations: [
     AppComponent,
     NabarComponent,
-    SidebarComponent
+    SidebarComponent,
+
   ],
   imports: [
     BrowserModule,
     RouterModule,
     AppRoutingModule,
     SharedModule,
-    DocumentsModule
+    DocumentsModule,
 
   ],
   providers: [],

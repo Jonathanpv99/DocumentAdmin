@@ -5,22 +5,23 @@ import { DocumentPageComponent } from './pages/document-page/document-page.compo
 import { TramitePageComponent } from './pages/tramite-page/tramite-page.component';
 import { TableComponent } from './components/table/table.component';
 import { FormComponent } from './components/form/form.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
 
 @NgModule({
   declarations: [
-
-  
     TypePageComponent,
-        DocumentPageComponent,
-        TramitePageComponent,
-        TableComponent,
-        FormComponent
+    DocumentPageComponent,
+    TramitePageComponent,
+    TableComponent,
+    FormComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ]
 })
 export class DocumentsModule { }
