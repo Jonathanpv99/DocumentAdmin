@@ -2,7 +2,7 @@
 <div class="table-responsive table-responsive-sm text-center" id="contTable">
   <h4 >Agregados</h4>
   <hr>
-  <table class="table border border-primary">
+  <table class="table border border-primary" id="tblDocs">
     <caption>tabla de documentos/Tramites</caption>
     <thead class="table-primary">
       <tr>
@@ -13,7 +13,7 @@
         <th scope="col">Acciones</th>
       </tr>
     </thead>
-    <tbody class="table-secondary">
+    <tbody class="table-secondary" id="tablaBody">
       <tr *ngFor="let doc of docs">
         <td>{{ doc.nombre }}</td>
         <td>{{ doc.codigo }}</td>
@@ -22,7 +22,7 @@
         <td>
           <button class="btn btn-success btn-lg" (click)="mostrarDatos(doc)">ver</button>
           <button class="btn btn-primary btn-lg">Editar</button>
-          <button class="btn btn-danger btn-lg">Eliminar</button>
+          <button class="btn btn-danger btn-lg" (click)="eliminarDatos(doc)">Eliminar</button>
         </td>
       </tr>
     </tbody>

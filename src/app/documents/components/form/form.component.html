@@ -13,21 +13,21 @@
 
       <div class="campo">
         <label>Auditoria</label>
-        <input id="txtFName" class="input-text" type="date"  pattern="\d{2}-\d{2}-\d{4}" placeholder="YYYY-MM-DD" required>
+        <input id="txtfecha" class="input-text" type="date"  pattern="\d{2}-\d{2}-\d{4}" placeholder="YYYY-MM-DD" required>
       </div>
 
       <div class="campo">
         <label>Activo</label>
         <select id="sltActiv">
-          <option value="opcion1">True</option>
-          <option value="opcion2">False</option>
+          <option value="opcion1">1</option>
+          <option value="opcion2">0</option>
         </select>
 
       </div>
 
     </div>
     <div class="mt-3 text-end">
-      <button type="submit" class="btn btn-primary btn-lg">
+      <button type="submit" class="btn btn-primary btn-lg" (click)="agregarDocument()">
         Agregar
       </button>
     </div>
