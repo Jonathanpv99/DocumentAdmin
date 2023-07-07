@@ -11,7 +11,7 @@ export class FormComponent {
 
 
   agregarDocument(){
-    const nombre = document.getElementById('txtname') as HTMLInputElement;
+    /*const nombre = document.getElementById('txtname') as HTMLInputElement;
     const codigo = document.getElementById('txtcode') as HTMLInputElement;
     const fecha = document.getElementById('txtfecha') as HTMLInputElement;
     const activo = document.getElementById('sltActiv') as HTMLSelectElement;
@@ -24,7 +24,7 @@ export class FormComponent {
       activo: act,
     };
 
-    alert(docs);
+    alert(docs);*/
 
   }
 }
